@@ -18,11 +18,13 @@
       Next page
     </button>
   </div>
+  <IndieSoftware />
 </template>
 <script lang="ts" setup>
 import { ref } from "vue";
 import ShareCard from "./ShareCard.vue";
 import FireWorksAnimation from "./FireWorksAnimation.vue";
+import IndieSoftware from "./IndieSoftware.vue";
 import { useData, withBase } from "vitepress";
 interface post {
   regularPath: string;
